@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "serv": "nodemon serv.js"
   },
   "author": "naldo de andrade",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "googleapis": "^149.0.0",
+    "mongoose": "^8.15.1",
     "nodemon": "^3.1.10",
     "open": "^10.1.2"
   }
